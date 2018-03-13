@@ -66,10 +66,57 @@ table {
       width: 720px;
       height: auto; }
     .outtie .hero .herotext {
-      margin-top: 10px;
+      margin-top: 20px;
       color: white;
       font-family: "Barlow Semi Condensed", sans-serif;
-      font-size: 14px;
+      font-size: 13px;
       font-weight: 900;
       transform: scale(1, 1.6);
       letter-spacing: .12em; }
+
+.nav {
+  height: 45px;
+  width: 100%;
+  background-color: #000000;
+  border-top: .5px #363636 solid;
+  border-bottom: .5px #363636 solid;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .nav .bigholder {
+    width: 1100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white; }
+    .nav .bigholder .holder {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      color: white; }
+      .nav .bigholder .holder .p {
+        margin-right: 15px;
+        color: #FC0078; }
+      .nav .bigholder .holder .w {
+        color: white;
+        margin-right: 20px; }
+
+.dropdownholder {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-left: 15px; }
+  .dropdownholder .title {
+    color: white;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+    transform: scale(1, 1.6);
+    letter-spacing: .12em; }
+  .dropdownholder .arrowdown {
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #FC0078;
+    margin-left: 10px; }

@@ -1,0 +1,32 @@
+.nav{
+  height: 45px;
+  width: 100%;
+  background-color: #000000;
+  border-top: .5px #363636 solid;
+  border-bottom: .5px #363636 solid;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  .bigholder{
+    width: 1100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    .holder{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      color: white;
+      .p{
+        margin-right: 15px;
+        color: #FC0078
+      }
+      .w{
+        color: white;
+        margin-right: 20px;
+      }
+    }
+  }
+  
+}
