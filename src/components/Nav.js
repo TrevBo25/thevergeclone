@@ -8,25 +8,25 @@ export default class Nav extends Component{
       <div className="nav">
         <div className="bigholder">
           <div className="holder">
-            <NavDropdown title={'TECH'} options={[]} />
-            <NavDropdown title={'SCIENCE'} options={[]} />
-            <NavDropdown title={'CULTURE'} options={[]} />
-            <NavDropdown title={'CARS'} options={[]} />
-            <NavDropdown title={'REVIEWS'} options={[]} />
+            <NavDropdown title={'TECH'} options={['Apple', 'Apps', 'Business', 'Google', 'Photography', 'Design', 'Microsoft', 'Virtual Reality']} />
+            <NavDropdown title={'SCIENCE'} options={['Space', 'Engergy', 'Health', 'Enviroment']} />
+            <NavDropdown title={'CULTURE'} options={['Web', 'Games', 'TV', 'Comics', 'Film', 'Music']} />
+            <NavDropdown title={'CARS'} options={['Ride-Sharing', 'Aviation', 'Cars', 'Rideables', 'Mass Transit', 'Autonomy']} />
+            <NavDropdown title={'REVIEWS'} options={['Phones', 'Tablets', 'VR Headsets', 'Laptops', 'Headphones', 'Next', 'Cameras', 'Smartwatches']} />
             <NavDropdown title={'LONGFORM'} options={[]} />
             <NavDropdown title={'VIDEO'} options={[]} />
             <NavDropdown title={'CIRCUIT BREAKER'} options={[]} />
             <NavDropdown title={'FORUMS'} options={[]} />
-            <NavDropdown title={'MORE'} options={[]} />
+            <NavDropdown title={'MORE'} options={['PODCASTS', 'STORE']} />
           </div>
           <div className="holder">
-            <i class="fab fa-facebook-f p"></i>
-            <i class="fab fa-twitter p"></i>
-            <i class="fas fa-wifi p"></i>
+            <i className="fab fa-facebook-f p"></i>
+            <i className="fab fa-twitter p"></i>
+            <i className="fas fa-wifi p"></i>
           </div>
           <div className="holder">
-            <i class="fas fa-user w"></i>
-            <i class="fas fa-search w"></i>
+            <i className="fas fa-user w"></i>
+            <i className="fas fa-search w"></i>
           </div>
         </div>
       </div>

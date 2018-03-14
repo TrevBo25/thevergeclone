@@ -8,16 +8,19 @@
   justify-content: space-around;
   align-items: center;
   .bigholder{
+    height: 100%;
     width: 1100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: white;
     .holder{
+      height: 100%;
       display: flex;
       justify-content: space-around;
       align-items: center;
       color: white;
+      position: relative;
       .p{
         margin-right: 15px;
         color: #FC0078

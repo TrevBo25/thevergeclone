@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed");
+@import url("https://fonts.googleapis.com/css?family=Raleway:600");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -84,16 +85,19 @@ table {
   justify-content: space-around;
   align-items: center; }
   .nav .bigholder {
+    height: 100%;
     width: 1100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: white; }
     .nav .bigholder .holder {
+      height: 100%;
       display: flex;
       justify-content: space-around;
       align-items: center;
-      color: white; }
+      color: white;
+      position: relative; }
       .nav .bigholder .holder .p {
         margin-right: 15px;
         color: #FC0078; }
@@ -101,22 +105,109 @@ table {
         color: white;
         margin-right: 20px; }
 
-.dropdownholder {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  margin-left: 15px; }
-  .dropdownholder .title {
-    color: white;
-    font-family: "Barlow Semi Condensed", sans-serif;
-    font-size: 13px;
-    font-weight: 900;
-    transform: scale(1, 1.6);
-    letter-spacing: .12em; }
-  .dropdownholder .arrowdown {
-    width: 0;
-    height: 0;
-    border-left: 4px solid transparent;
-    border-right: 4px solid transparent;
-    border-top: 4px solid #FC0078;
-    margin-left: 10px; }
+.outtiedrop {
+  position: relative;
+  height: 100%;
+  padding-right: 10px; }
+  .outtiedrop:hover {
+    background: #202020; }
+  .outtiedrop .dropdownholder {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15px; }
+    .outtiedrop .dropdownholder:hover {
+      cursor: pointer; }
+      .outtiedrop .dropdownholder:hover .arrowdown {
+        width: 0;
+        height: 0;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+        border-top: 4px solid #c4c4c4;
+        margin-left: 10px;
+        transform: translateY(5px); }
+    .outtiedrop .dropdownholder .title {
+      color: white;
+      font-family: "Barlow Semi Condensed", sans-serif;
+      font-size: 13px;
+      font-weight: 900;
+      transform: scale(1, 1.6);
+      letter-spacing: .12em; }
+    .outtiedrop .dropdownholder .arrowdown {
+      width: 0;
+      height: 0;
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+      border-top: 4px solid #FC0078;
+      margin-left: 10px;
+      transform: translateY(5px); }
+  .outtiedrop .nono {
+    display: none; }
+  .outtiedrop .ddholder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    background: #202020;
+    font-family: "Raleway", sans-serif;
+    font-size: 11px; }
+    .outtiedrop .ddholder .dadropdownbig {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      width: 270px;
+      background: #202020;
+      margin-bottom: 10px; }
+      .outtiedrop .ddholder .dadropdownbig .dditems {
+        width: 70px;
+        height: 30px;
+        margin-left: 10px;
+        display: flex;
+        align-items: center; }
+        .outtiedrop .ddholder .dadropdownbig .dditems:hover {
+          color: #c4c4c4;
+          cursor: pointer; }
+    .outtiedrop .ddholder .dadropdownmed {
+      display: flex;
+      flex-wrap: wrap;
+      width: 180px;
+      background: #202020;
+      margin-bottom: 10px; }
+      .outtiedrop .ddholder .dadropdownmed .dditems {
+        width: 70px;
+        height: 30px;
+        margin-left: 10px;
+        display: flex;
+        align-items: center; }
+        .outtiedrop .ddholder .dadropdownmed .dditems:hover {
+          color: #c4c4c4;
+          cursor: pointer; }
+    .outtiedrop .ddholder .dadropdownsm {
+      display: flex;
+      flex-wrap: wrap;
+      width: 90px;
+      background: #202020;
+      margin-bottom: 10px; }
+      .outtiedrop .ddholder .dadropdownsm .dditems {
+        width: 70px;
+        height: 30px;
+        margin-left: 10px;
+        display: flex;
+        align-items: center; }
+        .outtiedrop .ddholder .dadropdownsm .dditems:hover {
+          color: #c4c4c4;
+          cursor: pointer; }
+    .outtiedrop .ddholder .greybar {
+      background-color: #5D5D5D;
+      height: 1px;
+      width: calc(100% - 20px);
+      margin: auto; }
+    .outtiedrop .ddholder .all {
+      margin-top: 7px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      color: #FC0078; }
+      .outtiedrop .ddholder .all:hover {
+        color: white;
+        cursor: pointer; }
