@@ -1,0 +1,40 @@
+.bigfoot{
+  height: 220px;
+  width: 100%;
+  background-color: black;
+  border-top: 1px white solid;
+  display: flex;
+  .left{
+    flex: 3;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    .footerlogo{
+      width: 180px;
+      height: auto;
+      margin-right: 20px;
+    }
+  }
+  .middle{
+    flex: 6;
+    background-color: blue;
+    opacity: .5;
+    height: 100%;
+    width: 100%;
+    .middleholder{
+      display: flex;
+    }
+    .footerwords{
+      color: $pink
+    }
+  }
+  .right{
+    flex: 4;
+    background-color: green;
+    opacity: .5;
+    height: 100%;
+    width: 100%;
+  }
+}

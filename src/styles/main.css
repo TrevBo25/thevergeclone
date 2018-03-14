@@ -270,3 +270,37 @@ table {
       .outtiedrop .ddholder .all:hover {
         color: white;
         cursor: pointer; }
+
+.bigfoot {
+  height: 220px;
+  width: 100%;
+  background-color: black;
+  border-top: 1px white solid;
+  display: flex; }
+  .bigfoot .left {
+    flex: 3;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+    .bigfoot .left .footerlogo {
+      width: 180px;
+      height: auto;
+      margin-right: 20px; }
+  .bigfoot .middle {
+    flex: 6;
+    background-color: blue;
+    opacity: .5;
+    height: 100%;
+    width: 100%; }
+    .bigfoot .middle .middleholder {
+      display: flex; }
+    .bigfoot .middle .footerwords {
+      color: #FC0078; }
+  .bigfoot .right {
+    flex: 4;
+    background-color: green;
+    opacity: .5;
+    height: 100%;
+    width: 100%; }
