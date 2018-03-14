@@ -12,7 +12,7 @@ export default class NavDropdown extends React.Component {
 
   render(){
     const {title, options} = this.props
-    const ddclass = options.length > 6 ? "dadropdownbig" : (options.length > 4 ? "dadropdownmed" : "dadropdownsm")
+    const ddclass = options.length > 6 ? "dadropdownbig" : (options.length > 4 ? "dadropdownmed" : (options.length > 2 ? "dadropdownsm" : "dadropdownmini"))
     console.log(title, " ", this.state.active)
     return (
       <div className="outtiedrop" onMouseEnter={() => this.setState({active: true})} onMouseLeave={() => this.setState({active: false})}>

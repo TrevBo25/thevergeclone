@@ -23,11 +23,66 @@
       position: relative;
       .p{
         margin-right: 15px;
-        color: #FC0078
+        color: #FC0078;
+        transform: translateX(10px);
+        &:hover{
+          color: rgb(206, 206, 206);
+          cursor: pointer;
+        }
       }
       .w{
         color: white;
         margin-right: 20px;
+        &:hover{
+          color: rgb(206, 206, 206);
+          cursor: pointer;
+        }
+      }
+      .userholder{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        height: 100%;
+        margin-right: 10px;
+        
+        .w{
+          color: white;
+          margin-right: 20px;
+          &:hover{
+            color: rgb(206, 206, 206);
+            cursor: pointer;
+          }
+        }
+        .nono{
+          display: none;
+        }
+        .userdropdown{
+          position: fixed;
+          transform: translate(-21px, 73px);
+          background-color: #202020;
+          font-family: $secondfont;
+          font-size: 11px;
+          height: 100px;
+          width: 80px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          .greybar{
+            background-color: #5D5D5D;
+            height: 1px; 
+            width: calc(100% - 20px);
+            margin: auto;
+          }
+          .userwords{
+            margin: 15px;
+          }
+        }
+        &:hover{
+          background-color: #202020;
+        }
       }
     }
   }

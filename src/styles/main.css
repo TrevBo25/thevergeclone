@@ -100,10 +100,54 @@ table {
       position: relative; }
       .nav .bigholder .holder .p {
         margin-right: 15px;
-        color: #FC0078; }
+        color: #FC0078;
+        transform: translateX(10px); }
+        .nav .bigholder .holder .p:hover {
+          color: #cecece;
+          cursor: pointer; }
       .nav .bigholder .holder .w {
         color: white;
         margin-right: 20px; }
+        .nav .bigholder .holder .w:hover {
+          color: #cecece;
+          cursor: pointer; }
+      .nav .bigholder .holder .userholder {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        height: 100%;
+        margin-right: 10px; }
+        .nav .bigholder .holder .userholder .w {
+          color: white;
+          margin-right: 20px; }
+          .nav .bigholder .holder .userholder .w:hover {
+            color: #cecece;
+            cursor: pointer; }
+        .nav .bigholder .holder .userholder .nono {
+          display: none; }
+        .nav .bigholder .holder .userholder .userdropdown {
+          position: fixed;
+          transform: translate(-21px, 73px);
+          background-color: #202020;
+          font-family: "Raleway", sans-serif;
+          font-size: 11px;
+          height: 100px;
+          width: 80px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; }
+          .nav .bigholder .holder .userholder .userdropdown .greybar {
+            background-color: #5D5D5D;
+            height: 1px;
+            width: calc(100% - 20px);
+            margin: auto; }
+          .nav .bigholder .holder .userholder .userdropdown .userwords {
+            margin: 15px; }
+        .nav .bigholder .holder .userholder:hover {
+          background-color: #202020; }
 
 .outtiedrop {
   position: relative;
@@ -186,7 +230,7 @@ table {
     .outtiedrop .ddholder .dadropdownsm {
       display: flex;
       flex-wrap: wrap;
-      width: 90px;
+      width: 190px;
       background: #202020;
       margin-bottom: 10px; }
       .outtiedrop .ddholder .dadropdownsm .dditems {
@@ -196,6 +240,21 @@ table {
         display: flex;
         align-items: center; }
         .outtiedrop .ddholder .dadropdownsm .dditems:hover {
+          color: #c4c4c4;
+          cursor: pointer; }
+    .outtiedrop .ddholder .dadropdownmini {
+      display: flex;
+      flex-wrap: wrap;
+      width: 85px;
+      background: #202020;
+      margin-bottom: 10px; }
+      .outtiedrop .ddholder .dadropdownmini .dditems {
+        width: 70px;
+        height: 30px;
+        margin-left: 10px;
+        display: flex;
+        align-items: center; }
+        .outtiedrop .ddholder .dadropdownmini .dditems:hover {
           color: #c4c4c4;
           cursor: pointer; }
     .outtiedrop .ddholder .greybar {

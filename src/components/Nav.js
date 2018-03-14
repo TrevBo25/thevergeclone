@@ -2,6 +2,12 @@ import React, {Component} from 'react';
 import NavDropdown from './NavDropdown';
 
 export default class Nav extends Component{
+  constructor(){
+    super()
+    this.state = {
+      active: false
+    }
+  }
 
   render(){
     return(
@@ -25,7 +31,14 @@ export default class Nav extends Component{
             <i className="fas fa-wifi p"></i>
           </div>
           <div className="holder">
-            <i className="fas fa-user w"></i>
+            <div className="userholder" onMouseEnter={() => this.setState({active: true})} onMouseLeave={() => this.setState({active: false})}>
+              <i className="fas fa-user w"></i>
+              <div className={this.state.active ? "userdropdown" : "nono"}>
+                <div className="userwords">Log In</div>
+                <div className="greybar"></div>
+                <div className="userwords">Sign Up</div>
+              </div>
+            </div>
             <i className="fas fa-search w"></i>
           </div>
         </div>

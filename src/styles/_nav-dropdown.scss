@@ -92,7 +92,25 @@
     .dadropdownsm{
       display: flex;
       flex-wrap: wrap;
-      width: 90px;
+      width: 190px;
+      background: #202020;
+      margin-bottom: 10px;
+      .dditems{
+        width: 70px;
+        height: 30px;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        &:hover{
+          color: rgb(196, 196, 196);
+          cursor: pointer;
+        }
+      }
+    }
+    .dadropdownmini{
+      display: flex;
+      flex-wrap: wrap;
+      width: 85px;
       background: #202020;
       margin-bottom: 10px;
       .dditems{
