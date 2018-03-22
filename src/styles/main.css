@@ -315,7 +315,7 @@ table {
         color: #FC0078;
         margin-right: 10px;
         margin-left: 10px;
-        margin-top: 10px; }
+        margin-top: 12px; }
         .bigfoot .middle .middleholder .footerwords:hover {
           color: #ba005a;
           cursor: pointer; }
@@ -328,13 +328,13 @@ table {
         color: #FC0078;
         margin-right: 10px;
         margin-left: 10px;
-        margin-top: 10px; }
+        margin-top: 12px; }
         .bigfoot .middle .middlebottom .footerwords:hover {
           color: #ba005a;
           cursor: pointer; }
       .bigfoot .middle .middlebottom .lonelywords {
         margin-left: 10px;
-        margin-top: 20px;
+        margin-top: 22px;
         color: white; }
   .bigfoot .right {
     flex: 4;
@@ -353,13 +353,13 @@ table {
         color: #FC0078;
         margin-right: 10px;
         margin-left: 10px;
-        margin-top: 10px; }
+        margin-top: 12px; }
         .bigfoot .right .rightholder .footerwords:hover {
           color: #ba005a;
           cursor: pointer; }
       .bigfoot .right .rightholder .lonelywordsright {
         margin-left: 10px;
-        margin-top: 10px;
+        margin-top: 12px;
         color: white; }
       .bigfoot .right .rightholder .pink {
         color: #FC0078; }
