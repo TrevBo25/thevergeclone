@@ -10,13 +10,13 @@ const Footer = () => {
       </div>
       <div className="middle">
         <div className="middleholder">
-          <p className="footerwords">Terms of Use</p><p className="footerwords">Privacy Policy</p><p className="footerwords">Communications Preferences</p>
+          <p className="footerwords">Terms of Use</p><div className="circle"></div><p className="footerwords">Privacy Policy</p><div className="circle"></div><p className="footerwords">Communications Preferences</p>
         </div>
         <div className="middleholder">
-          <p className="footerwords">Contact</p><p className="footerwords">Tip Us</p><p className="footerwords">Community Guidelines</p><p className="footerwords">About</p><p className="footerwords">Ethics Statement</p>
+          <p className="footerwords">Contact</p><div className="circle"></div><p className="footerwords">Tip Us</p><div className="circle"></div><p className="footerwords">Community Guidelines</p><div className="circle"></div><p className="footerwords">About</p><div className="circle"></div><p className="footerwords">Ethics Statement</p>
         </div>
-        <div>
-          <p>All Systems Operational</p>
+        <div className="middlebottom">
+          <p className="lonelywords">All Systems Operational</p>
           <p className="footerwords">Check out our status page for more details.</p>
         </div>
       </div>

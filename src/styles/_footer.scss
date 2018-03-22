@@ -4,6 +4,8 @@
   background-color: black;
   border-top: 1px white solid;
   display: flex;
+  font-family: $secondfont;
+  font-size: 12px;
   .left{
     flex: 3;
     height: 100%;
@@ -19,15 +21,47 @@
   }
   .middle{
     flex: 6;
-    background-color: blue;
-    opacity: .5;
     height: 100%;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     .middleholder{
       display: flex;
+      padding-left: 10px;
+      align-items: center;
+      .circle{
+        height:4px;
+        width:4px;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        margin-top: 10px;
+      }
+      .footerwords{
+        color: $pink;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+      }
     }
-    .footerwords{
-      color: $pink
+    .middlebottom{
+      display: flex;
+      padding-left: 10px;
+      display: flex;
+      flex-direction: column;
+      .footerwords{
+        color: $pink;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+      }
+      .lonelywords{
+        margin-left: 10px;
+        margin-top: 20px;
+        color: white;
+      }
     }
   }
   .right{
