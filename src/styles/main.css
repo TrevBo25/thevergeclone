@@ -290,6 +290,8 @@ table {
       width: 180px;
       height: auto;
       margin-right: 20px; }
+      .bigfoot .left .footerlogo:hover {
+        cursor: pointer; }
   .bigfoot .middle {
     flex: 6;
     height: 100%;
@@ -314,6 +316,9 @@ table {
         margin-right: 10px;
         margin-left: 10px;
         margin-top: 10px; }
+        .bigfoot .middle .middleholder .footerwords:hover {
+          color: #ba005a;
+          cursor: pointer; }
     .bigfoot .middle .middlebottom {
       display: flex;
       padding-left: 10px;
@@ -324,13 +329,42 @@ table {
         margin-right: 10px;
         margin-left: 10px;
         margin-top: 10px; }
+        .bigfoot .middle .middlebottom .footerwords:hover {
+          color: #ba005a;
+          cursor: pointer; }
       .bigfoot .middle .middlebottom .lonelywords {
         margin-left: 10px;
         margin-top: 20px;
         color: white; }
   .bigfoot .right {
     flex: 4;
-    background-color: green;
-    opacity: .5;
     height: 100%;
-    width: 100%; }
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: flex-start; }
+    .bigfoot .right .rightholder {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end; }
+      .bigfoot .right .rightholder .footerwords {
+        color: #FC0078;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px; }
+        .bigfoot .right .rightholder .footerwords:hover {
+          color: #ba005a;
+          cursor: pointer; }
+      .bigfoot .right .rightholder .lonelywordsright {
+        margin-left: 10px;
+        margin-top: 10px;
+        color: white; }
+      .bigfoot .right .rightholder .pink {
+        color: #FC0078; }
+        .bigfoot .right .rightholder .pink:hover {
+          color: #ba005a;
+          cursor: pointer; }
+      .bigfoot .right .rightholder .rightlogo:hover {
+        cursor: pointer; }
