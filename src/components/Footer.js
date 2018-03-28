@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import VLogo from '../assets/whitevergelogo.png';
 import VoxLogo from '../assets/voxmedia.png'
 

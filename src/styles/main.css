@@ -368,3 +368,9 @@ table {
           cursor: pointer; }
       .bigfoot .right .rightholder .rightlogo:hover {
         cursor: pointer; }
+
+.toppest {
+  width: 1250px;
+  height: 1380px;
+  background: linear-gradient(to right, #FAD000, #FC0078);
+  color: white; }
