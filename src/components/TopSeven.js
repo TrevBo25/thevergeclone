@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import TopSevenCard from './TopSevenCard'
 
 const test = {
   title: "This is the best title",
@@ -10,7 +11,7 @@ export default class TopSeven extends Component {
   render() {
     return (
       <div className="toppest">
-        
+        <TopSevenCard story={test} />
       </div>
     );
   }
