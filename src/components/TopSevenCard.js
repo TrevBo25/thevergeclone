@@ -1,15 +1,17 @@
 import React from 'react';
 import propTypes from 'prop-types';
 
-const TopSevenCard = ({story}) => {
+const classNamesArr = ['bigleft', 'lilright', 'lilleft', 'bigright', 'medleft', 'medmid', 'medright']
+
+const TopSevenCard = ({story, index}) => {
   return (
-    <div>
-      <div>
-        <img src={story.image} alt={`The image for the story ${story.title}`} />
+    <div className={classNamesArr[index]} >
+      <div className="leftside" >
+        <img src={story.image} alt={`The image for the story ${story.title}`} className="picture" />
       </div>
-      <div>
-        <h1>{story.title.toUpperCase()}</h1>
-        <p>BY {story.author.toUpperCase()}</p>
+      <div className="rightside" >
+        <h1 className="title" >{story.title.toUpperCase()}</h1>
+        <p className="author" >BY {story.author.toUpperCase()}</p>
       </div>
     </div>
   )
